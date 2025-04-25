@@ -2,50 +2,91 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Some Web Page</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AquaFlow Waterworks</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class='menu-container'>
-  <div class='menu'>
-    <div class='date'>Aug 14, 2016</div>
-    <div class='signup'>Sign Up</div>
-    <div class='login'>Login</div>
-  </div>
-</div>
+    <header class="header">
+      <div class="container">
+        <h1>AquaFlow Waterworks</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>Delivering Reliable Water Solutions</h2>
+        <p>
+          Specializing in fire hydrants, water mains, valves, and comprehensive
+          waterworks services.
+        </p>
+        <a href="#services" class="btn">Explore Services</a>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <h3>Fire Hydrant Installation & Maintenance</h3>
+            <p>
+              Ensuring reliable fire hydrants for community safety and
+              compliance.
+            </p>
+          </div>
+          <div class="service-card">
+            <h3>Water Main Construction</h3>
+            <p>
+              Building and repairing water mains for uninterrupted water supply.
+            </p>
+          </div>
+          <div class="service-card">
+            <h3>Valve Repair & Replacement</h3>
+            <p>Expert services for water flow control and system efficiency.</p>
+          </div>
+          <div class="service-card">
+            <h3>Comprehensive Waterworks Services</h3>
+            <p>
+              From inspections to emergency repairs, we cover all your needs.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class='header-container'>
-  <div class='header'>
-    <div class='subscribe'>Subscribe &#9662;</div>
-    <div class='logo'><img src='images/awesome-logo.svg'/></div>
-    <div class='social'><img src='images/social-icons.svg'/></div>
-  </div>
-</div>
-<div class='photo-grid-container'>
-  <div class='footer'>
-  <div class='footer-item footer-one'></div>
-  <div class='footer-item footer-two'></div>
-  <div class='footer-item footer-three'></div>
-</div>
-  <div class='photo-grid'>
-    <div class='photo-grid-item first-item'>
-      <img src='images/one.svg'/>
-    </div>
-    <div class='photo-grid-item'>
-      <img src='images/two.svg'/>
-    </div>
-    <div class='photo-grid-item'>
-      <img src='images/three.svg'/>
-      <div class='photo-grid-item'>
-  <img src='images/four.svg'/>
-</div>
-<div class='photo-grid-item last-item'>
-  <img src='images/five.svg'/>
-</div>
-    </div>
-  </div>
-</div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          At AquaFlow Waterworks, we are dedicated to providing top-tier water
+          infrastructure solutions. With expertise in fire hydrants, water
+          mains, and valves, our team ensures reliable and efficient water
+          systems for communities and industries.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Need assistance with waterworks? Reach out to our team today!</p>
+        <a href="mailto:info@aquaflow.com" class="btn">Get in Touch</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 AquaFlow Waterworks. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
