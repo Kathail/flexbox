@@ -42,8 +42,7 @@
     height: 300px;
     display: flex;
     justify-content: space-between;
-    /* ... */
-    align-items: stretch; /* Change this */
+    align-items: center;
   }
 
   .social,
