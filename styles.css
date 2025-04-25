@@ -59,7 +59,8 @@
   .photo-grid {
     width: 900px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center; /* Change this */
+    flex-wrap: wrap;
   }
 
   .photo-grid-item {
