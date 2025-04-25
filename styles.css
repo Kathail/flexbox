@@ -42,5 +42,13 @@
     height: 300px;
     display: flex;
     justify-content: space-between;
+    /* ... */
+    align-items: stretch; /* Change this */
+  }
+
+  .social,
+  .logo,
+  .subscribe {
+    border: 1px solid #5995da;
   }
 }
